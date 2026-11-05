@@ -1,0 +1,28 @@
+# Local secrets & runtime state — never commit
+.env
+credentials.json
+client_secret*.json
+token.json
+state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# belt-and-suspenders
+.env
+credentials.json
+client_secret*.json
+token.json
+state.json
